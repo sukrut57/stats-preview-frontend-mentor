@@ -1,0 +1,93 @@
+
+@import url('fonts/fonts.css');
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Inter',sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+
+:root{
+    --background-dark-blue-main:hsl(233, 47%, 7%);
+    --background-regular-blue-card:hsl(244, 38%, 16%);
+    --background-soft-voilet-image: hsl(277, 64%, 61%);
+
+    --ff-bold: hsl(0, 0%, 100%);
+    --ff-regular:hsla(0, 0%, 100%, 0.75);
+    --ff-light:hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    background: var(--background-dark-blue-main);
+}
+
+.container{
+    background: var(--background-regular-blue-card);
+    width: 70% !important;
+}
+
+h1 > span{
+    color:var(--background-soft-voilet-image);
+}
+
+.content > p{
+    color: var(--ff-light);
+}
+
+
+.span-stats{
+    color:var(--ff-light);
+    display: block;
+}
+
